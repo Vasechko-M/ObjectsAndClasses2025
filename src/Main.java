@@ -2,7 +2,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        String nameJohn = "John";
+        /*String nameJohn = "John";
         int ageJohn = 13;
 
         String nameSarah = "Sarah";
@@ -13,7 +13,7 @@ public class Main {
 
         for (int i = 0; i < names.length; i++) {
             System.out.println("Имя " + names[i] + " Возраст " + ages[i]);
-        }
+        }*/
         Person sarah = new Person("Sarah", 30);
         System.out.println("sarah.name = " + sarah.getName());
         System.out.println("sarah.age = " + sarah.getAge());
